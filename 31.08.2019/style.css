@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-image: url("../31.08.2019/img/bg-masthead.jpg");
+    height: 100vh;
+}
+header .logo{
+    display: inline-block;
+}
+header .logo h3{
+    margin-top: 0;
+    padding: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.menu{
+    display: inline-block;
+    
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    color: black;
+    margin-left: 50px;
+    text-decoration: none;
+    padding-top: 14px;
+}
+.menu ul li a:hover{
+    color: gray;
+}
+.banner{
+    text-align: center;
+    line-height: 2;
+}
+.banner h1{
+   font-size: 6.5rem;
+   margin-bottom: 0px;
+   text-transform: uppercase;
+}
+.banner p{
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.banner a{
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1);
+    text-decoration: none;
+    color: white;
+    background: #64a19d;
+    padding: 1.25rem 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+.banner a:hover{
+    background: #4f837f;
+}
+
+#built{
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+    padding: 150px 0 0 0;
+    text-align: center;
+}
+#built h1{
+    color: white;
+    font-size: 2rem;
+}
+#built p{
+    color: white;
+    letter-spacing: 2px;
+}
+#built p a{
+    color: #64a19d;
+    text-decoration: none;
+    line-height: 2;
+}
+#built img{
+    margin-top: 80px;
+    width: 100%;
+    display: inline-block;
+}
+#gallery{
+    padding: 150px 0;
+}
+#gallery .img{
+   float: left;
+    width: 70%;
+}
+#gallery .img img{
+    width: 100%;
+}
+#gallery .text{
+    float: left;
+   padding-left: 35px;
+    width: 28%;
+    border-left: 8px solid #64a19d;
+    margin-top: 150px;
+}
+#gallery .text h4{
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+#gallery .text p{
+    letter-spacing: 2px;
+    color: gray;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 300;
+}
+.collage{
+    margin-top: 50px;
+}
+.collage .single-collage{
+    float: left;
+    width: 49%;
+}
+.collage .single-collage img{
+    width: 100%;
+}
+.collage .single-collage.content{
+    background: black;
+}
+.collage .single-collage.content{
+    text-align: left;
+    color: white;
+    padding: 113px;
+}
+.collage .single-collage.content hr{
+    background: #4f837f;
+    height: 5px;
+    width: 30%;
+    border: none;
+}
+#ending{
+    background: black;
+    padding: 160px;
+}
+.endhead{
+    color: white;
+    text-align: center;
+}
+.offer{
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.paperplane{
+    font-size: 2rem;
+    margin-bottom: -2rem;
+}
+input[type=text]{
+    width: 61%;
+    padding: 22px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 2px;
+    float: left;
+    margin-left: 6rem;
+}
+  input[type=submit]{
+    width: 19%;
+    background-color: #64a19d;
+    color: white;
+    padding: 23px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 6rem;
+  }
+  input[type=submit]:hover{
+      background: #467370;
+  }
+  #footer{
+      background: black;
+  }
+  .card{
+    border-bottom: #64a19d solid;
+    border-width: 4px;
+    border-radius: 5px;
+    width: 381px;
+    padding: 40px;
+    background: white;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    margin: 8px;
+    letter-spacing: 2px;
+  }
+  .card a{
+      text-decoration: none;
+      color: #64a19d;
+      display: block;
+      margin: 1em;
+  }
+  .card a:hover{
+    color: #467370;
+  }
+  .card i{
+      color: #64a19d;
+  }
+  .card hr{
+    border: 2px solid #64a19d;
+    padding: -1px;
+    width: 56px;
+  }
+#social{
+    background: black;
+    text-align: center;
+    padding: 55px;
+}
+.icons a{
+    text-decoration: none;
+    color: rgba(255,255,255,.3);
+    border: 0px hidden rgba(255,255,255,.3);
+    border-radius: 100%;
+    border-top: hidden;
+    padding: 15px 17px;
+    margin: 6px;
+    background: rgba(255,255,255,.1);
+}
+.icons a:hover i{
+    color: rgba(255,255,255,.5);
+    border-style: hidden;
+}
+.copyright{
+    color: rgba(255,255,255,.3);
+    margin: 70px;
+}
+
+
+
+

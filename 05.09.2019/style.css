@@ -1,0 +1,422 @@
+body {
+    margin: 0;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+header {
+    background-image: url("..//05.09.2019/img/1\ \(1\).jpg");
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+header .img {
+    width: 15%;
+}
+
+header .img img {
+    width: 100%;
+}
+
+header .menu ul {
+    float: right;
+    margin-top: 28px;
+}
+
+header .menu ul .menu-item {
+    display: inline-block;
+    position: relative;
+}
+
+header .menu ul li a {
+    color: white;
+    padding: 10px 12px;
+    font-weight: 800;
+}
+
+header .menu ul li a:hover+.dropdown ul {
+    display: block;
+}
+
+header .content, #camera .content {
+    margin-top: 70px;
+}
+
+header .content h1, #camera .content h1 {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 800;
+    color: white;
+}
+
+header .content p, #camera .content p {
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+    color: white;
+}
+
+header .content a, #camera .content a {
+    color: white;
+    display: inline-block;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 8%;
+}
+
+.dropdown ul {
+    background: white;
+    padding: 10px 70px 10px 0;
+    border-radius: 4%;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    display: none;
+}
+
+.dropdown ul li {
+    list-style: none;
+}
+
+.dropdown ul li a {
+    display: inline-block;
+    padding: 12px 20px 12px !important;
+    color: black !important;
+}
+
+/* services */
+
+#services .col-4 {
+    background: #131629
+}
+
+#services .col-4.light {
+    background: #181b31;
+}
+
+#services .content {
+    padding: 0 63px;
+}
+
+#services .content h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    line-height: 100px;
+    font-weight: 800;
+    color: white;
+}
+
+#services .content h4 {
+    font-size: 1.78571429em;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: white;
+}
+
+#services .content p {
+    color: white;
+}
+
+/* Camera */
+
+#camera {
+    text-align: center;
+    background: url("../05.09.2019/img/3.jpg");
+    padding: 70px 0;
+}
+
+#camera .content h1 {
+    margin-bottom: 25px;
+    margin-top: 0
+}
+
+/* Gallery */
+
+#gallery {
+    padding: 70px 0;
+}
+
+#gallery .header ul li {
+    display: inline-block;
+}
+
+#gallery .header ul li a {
+    padding: 11px;
+    border: 2px solid transparent;
+    margin-right: 3px;
+    border-radius: 80px;
+    display: inline-block;
+    color: #565656;
+    transition: 0.4s;
+}
+
+#gallery .header ul li a.active {
+    color: #2250fc;
+    border-color: #2250fc;
+}
+
+#gallery .header ul li a:hover {
+    color: #2250fc;
+    border-color: #2250fc;
+}
+
+#gallery .header h1 {
+    float: right;
+    clear: both;
+    font-size: 64px;
+    margin: 0;
+    opacity: 0.2;
+}
+
+#gallery .images .col-4 {
+    padding: 0;
+}
+
+#gallery .images .img {
+    height: 270px;
+    position: relative;
+}
+
+#gallery .images .img img {
+    width: 100%;
+    height: 100%;
+}
+
+#gallery .images .img .overlay {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#gallery .images .img:hover .overlay {
+    opacity: 0.4;
+}
+
+#gallery .images .img:hover .icons {
+    top: 50%;
+    opacity: 1;
+}
+
+#gallery .images .img .icons {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    opacity: 0;
+    transition: 0.4s;
+    transform: translate(-50%, -50%)
+}
+
+#gallery .images .img .icons a {
+    border-radius: 100%;
+    color: black;
+    background: white;
+    padding: 15px;
+    margin-right: 7px
+}
+
+#about {
+    background: #f7f9fb;
+    padding: 80px 0;
+}
+
+#about .specs h4 {
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+    font-weight: 500;
+    color: #1f1f1f;
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+#about .specs p {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: #777;
+}
+
+#about .specs {
+    width: 29%;
+    display: inline-block;
+    margin-left: 38px;
+}
+
+#blog .heading {
+    text-align: center;
+}
+
+#blog {
+    padding: 80px 0;
+}
+
+#blog .heading h2 {
+    position: relative;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+#blog .heading hr {
+    width: 115px;
+    border: 1px solid #2250fc;
+    margin-bottom: 30px;
+}
+
+#blog .heading p {
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+}
+
+#blog .products {
+    display: inline-block;
+    padding: 0 20px 20px 0;
+    margin: 0 -100px 0 100px;
+}
+
+#blog .product-box {
+    border: 1px solid #f2f2f2;
+}
+
+#blog .description {
+    width: 31rem;
+    padding: 24px;
+}
+
+#blog .description .date-comment {
+    color: #c2c2c2;
+}
+
+#blog .description .h2 {
+    color: #444;
+}
+
+#blog .description p {
+    color: #777;
+}
+
+#blog .description a {
+    color: #565656;
+    text-transform: uppercase;
+    transition: 0.4s;
+    display: inline-block;
+}
+
+#blog .description .arrow {
+    display: inline-block;
+    transition: 0.4s;
+}
+
+#blog .description a:hover {
+    color: #2250fc;
+}
+
+#blog .description a:hover .arrow {
+    padding-left: 10px;
+    color: #2250fc;
+}
+
+#meet-our-team {
+    padding: 80px 0;
+    background: #f7f9fb;
+}
+
+#meet-our-team .heading {
+    text-align: center;
+}
+
+#meet-our-team .heading h2 {
+    position: relative;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+#meet-our-team .heading hr {
+    width: 115px;
+    border: 1px solid #2250fc;
+    margin-bottom: 30px;
+}
+
+#meet-our-team .heading .meetourteam {
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+}
+
+#meet-our-team img {
+    width: 100%;
+}
+
+#meet-our-team .team-members {
+    display: inline-block;
+    width: 260px;
+    display: inline-block;
+    width: 260px;
+    padding: 1px;
+    margin: 7px;
+}
+#meet-our-team .member-box{
+    text-align: center;
+    background: #ffffff;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    
+}
+#meet-our-team .member-image img{
+    border-radius: 4px;
+}
+#meet-our-team .team-members{
+    overflow: hidden;
+}
+#meet-our-team .team-members a{
+    color:  #4c5667;
+    border: 1px solid #efefef;
+    border-radius: 100px;
+    padding: 5px 8px;
+    transition: 0.4s;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0);
+    
+}
+#meet-our-team .team-members a i{
+    transition: 0.5s
+}
+
+#meet-our-team .team-members a:hover{
+  padding-right: 80px;
+  background: rgba(0, 0, 0, 0.1);
+}
+#meet-our-team .team-members a:hover i{
+    transform: rotate(360deg);
+    
+}
+#meet-our-team .team-members a:hover span{
+    opacity: 1;
+}
+#meet-our-team .member-social span{
+    opacity: 0;
+    position: absolute;
+    font-size: 10px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    padding: 3px;
+    margin-left: 6px;
+}
+

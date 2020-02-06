@@ -1,0 +1,414 @@
+.col-lg-10 p {
+    font-size: 12px;
+    padding-top: 10px !important;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    background: #ebebeb;
+}
+
+.logo {
+    padding-top: 5px;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+input {
+    border: hidden !important;
+}
+
+.icons {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.icons i {
+    transition: 0.3s;
+}
+
+.icons i:hover {
+    color: #cc2121 !important;
+}
+
+.fa-shopping-bag {
+    position: relative;
+    right: 10px;
+}
+
+.fa-shopping-bag span {
+    position: absolute;
+    color: white;
+    background: #cc2121;
+    padding: 0px 4px;
+    border-radius: 7px;
+    font-size: 13px;
+    right: -7px;
+    bottom: 9px;
+    font-weight: 100;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu .li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none
+}
+
+.menu .li-dropdown {
+    position: absolute;
+    overflow: hidden;
+    top: 39px;
+    height: 0;
+    right: -53px;
+    z-index: 999;
+    background: white;
+    transition: 0.3s;
+    width: 155px;
+}
+
+.menu .li-dropdown ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu .li:hover .li-dropdown {
+    height: 150px
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 43%;
+    bottom: 54px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-caption .badge {
+    padding: 8px;
+}
+
+.carousel-caption p {
+    color: black;
+    font-size: 18px;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    color: black;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 13px 49px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.carousel-caption a:hover {
+    background-color: #cc2121;
+}
+
+#services-section {
+    margin-top: 44px;
+    margin-bottom: 4px;
+}
+
+.services {
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 14px;
+}
+
+.services p {
+    font-size: 13px;
+}
+
+.services {
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    margin: 0 -15px;
+}
+
+.col-lg-3:first-child .services {
+    border-left: 0;
+}
+
+.col-lg-3:last-child .services {
+    border-right: 0;
+}
+
+#trendings-section .col-lg-4 a img {
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+}
+
+#trendings-section .col-lg-4 .frame {
+    position: absolute;
+    border: 2px solid white;
+    top: 30px;
+    left: 20px;
+    width: 20rem;
+    height: 20rem;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#trendings-section .col-lg-4 .frame:hover {
+    opacity: 1;
+    left: 30px;
+}
+
+#new-products-section {
+    padding: 80px 0;
+}
+
+.products-title {
+    text-align: center;
+}
+
+.products-title img {
+    margin-bottom: 20px;
+}
+
+.product {
+    transition: 0.3s;
+    margin: 0;
+}
+
+.product a img {
+    width: 100%;
+    position: relative;
+}
+
+.badges .badge {
+    padding: 7px 12px;
+}
+
+.badges .badge-dark {
+    margin-left: 100px;
+}
+
+.product .badges {
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    top: 20px;
+}
+
+.product .a-1 {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1;
+    color: #242424;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.product .a-1:hover {
+    color: #cc2121;
+}
+
+.product .a-2 {
+    text-decoration: none;
+    color: #242424;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.product .a-2 h4 {
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.product .a-2:hover h4 {
+    color: #cc2121;
+    border-bottom: 1px solid #cc2121;
+    display: inline-block;
+}
+
+.product .price .old-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+.product .price .new-price {
+    color: #cc2121;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product {
+    border: 15px solid white;
+}
+
+.product:hover {
+    box-shadow: 0px 0px 30px rgba(220, 220, 220, 1)
+}
+
+.action {
+    position: absolute;
+    background: white;
+    display: flex;
+    bottom: 120px;
+    width: 100%;
+    width: 10;
+    transition: 0.4s;
+    transform: rotateX(90deg);
+}
+
+.action a {
+    text-decoration: none;
+    color: #242424;
+    transition: 0.3s;
+}
+
+.action a i {
+    font-size: 18px;
+    margin: 17px;
+}
+
+.action a:hover {
+    color: #cc2121;
+}
+
+.product:hover .action {
+    transform: rotateX(0);
+}
+
+#banner-section {
+    padding: 80px 0;
+    background-image: url(..//img/bg-banner.jpg);
+    background-size: cover;
+}
+
+.banner-text {
+    width: 38rem;
+}
+
+.banner-text h1 {
+    color: #cc2121;
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.banner-text h2 {
+    color: #cc2121;
+    font-size: 36px;
+}
+
+.banner-text h2 span {
+    color: black;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.banner-text p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 50px;
+    border-radius: 25px;
+    background: #252525;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.banner-text a:hover {
+    background: #cc2121;
+}
+
+#categories-section {
+    padding: 60px 0;
+}
+
+#instagram-section {
+    padding: 60px 0;
+}
+
+.follow-us {
+    text-align: center;
+}
+
+.follow-us {
+    padding-top: 90px;
+    margin-bottom: 40px;
+}
+
+.instagram img {
+    width: 100%;
+}
+
+.image {
+    margin: 0 10px;
+    position: relative;
+}
+
+.image .overlay {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.instagram-icon {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+    font-size: 20px;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.image:hover .overlay {
+    opacity: 0.7;
+}
+
+.image:hover .instagram-icon {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 1;
+}

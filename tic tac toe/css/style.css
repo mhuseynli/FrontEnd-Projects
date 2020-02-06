@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.game-table {
+    background: black;
+    height: 30rem;
+    width: 474px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.box {
+    background: white;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    font-size: 100px;
+    text-align: center;
+}

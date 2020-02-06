@@ -1,0 +1,64 @@
+.panel{
+    width: 500px;
+    height: 500px;
+    background:skyblue;
+}
+button{
+    display: block;
+}
+.img1,.img2{
+    display: inline-block;
+    width: 190px;
+    height: 200px;
+}
+
+/* Paint */
+/* .panel{
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    background: skyblue;    
+}
+.colors div{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+
+.col-lg-8{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-lg-8 div{
+    width: 120px;
+    border: 1px solid black;
+    height: 100px;
+    background: white;
+}
+.pen{
+    padding: 5px;
+}
+.pen.active{
+    border: 1px solid black;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+    background: black;
+    position: absolute;
+} */
